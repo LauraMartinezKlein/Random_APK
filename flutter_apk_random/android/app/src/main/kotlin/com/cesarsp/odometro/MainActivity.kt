@@ -1,0 +1,6 @@
+package com.cesarsp.odometro
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
