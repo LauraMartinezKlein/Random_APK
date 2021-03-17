@@ -14,9 +14,10 @@ class SendDialog extends StatefulWidget {
 }
 
 class _SendDialogState extends State<SendDialog> {
-  TextEditingController _nameController = TextEditingController();
-  TextEditingController _emailController = TextEditingController();
-  final Uri _url = Uri.parse('');
+  //TextEditingController _nameController = TextEditingController();
+  //TextEditingController _emailController = TextEditingController();
+  final Uri _url =
+      Uri.parse('https://apirandomlaura.azurewebsites.net/api/data');
 
   Future<String> _sendData() async {
     Data data = Data(
